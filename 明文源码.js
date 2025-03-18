@@ -604,9 +604,6 @@ function getwlasConfig(userID, hostName) {
 	
 	return `
 
-v2ray
---------------------------------------
 vless${wlasMain}
---------------------------------------
 `;
 }
