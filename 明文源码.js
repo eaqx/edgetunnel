@@ -603,7 +603,6 @@ function getwlasConfig(userID, hostName) {
 	`?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`;
 	
 	return `
-
 vless${wlasMain}
 `;
 }
