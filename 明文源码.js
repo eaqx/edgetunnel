@@ -597,12 +597,3 @@ async function handleUDPOutBound(webSocket, wlasResponseHeader, log) {
  * @param {string | null} hostName
  * @returns {string}
  */
-function getwlasConfig(userID, hostName) {
-	const wlasMain = 
-	`://${userID}@${hostName}:443`+
-	`?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`;
-	
-	return `
-vless${wlasMain}
-`;
-}
