@@ -599,3 +599,14 @@ async function handleUDPOutBound(webSocket, vesResponseHeader, log) {
  * @param {string | null} hostName
  * @returns {string}
  */
+function getvesConfig(userID, hostName) {
+	const vesMain = 
+	`://${userID}@${hostName}:443`+
+	`?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`;
+	
+	return `
+=========================================================
+vless${vesMain}
+=========================================================
+`;
+}
