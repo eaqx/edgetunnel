@@ -54,6 +54,7 @@ www.iakeys.com
 edtunnel-dgp.pages.dev
 www.d-555.com
 fbi.gov
+ts.hpc.tw
 ```
 
 ## 致谢: [zizifn](https://github.com/zizifn/edgetunnel) [cmliu](https://github.com/cmliu/edgetunnel)
