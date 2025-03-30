@@ -1,7 +1,4 @@
-|  变量名称  | 值 |
-| ------- |--|
-| PROXYIP | 优选域名 |
-|   UUID  | 用户ID |
+[_worker.js]()
 
 ## [UUID生成](https://1024tools.com/uuid)
 ## PROXYIP:
