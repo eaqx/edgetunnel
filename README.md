@@ -1,4 +1,4 @@
-部署
+# 部署
 <details>
 
 Workers:
@@ -17,7 +17,7 @@ Pages:
   
 </details>
 
-变量说明
+# 变量说明
 <details>
   
 | 变量名 | 获取 |
@@ -27,14 +27,14 @@ Pages:
 
 </details>
 
-自定义域
+# 自定义域
 <details>
   
 如果原项目中Cloudflare所分配的域名无法使用 可在"设置"中添加自定义域 绑定自己的域名
 
 </details>
   
-致谢:
+# 致谢
 <details>
 
 - [zizifn](https://github.com/zizifn/edgetunnel)
