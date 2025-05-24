@@ -1,16 +1,4 @@
-# 项目部署
-## Pages
-<details>
-
-- 下载[_worker.js](https://github.com/eaqx/edgetunnel/blob/main/_worker.js)文件 移入文件夹
-- 进入Cloudflare的"Workers and Pages" 新建Pages项目 上传文件夹并部署
-- 点击"设置" 进入"变量和机密" 设置PROXYIP和UUID
-- 再次上传文件并部署使变量生效
-- 访问 `https://example.pages.dev/example-uuid` 获取节点链接
-  
-</details>
-
-## Workers
+# Workers部署
 <details>
 
 - 进入Cloudflare的"Workers and Pages" 新建Workers项目
@@ -19,6 +7,17 @@
 - 点击"设置" 进入"变量和机密" 设置PROXYIP和UUID
 - 访问 `https://example.pages.dev/your-uuid` 获取节点链接
 
+</details>
+
+# Pages部署
+<details>
+
+- 下载[_worker.js](https://github.com/eaqx/edgetunnel/blob/main/_worker.js)文件 移入文件夹
+- 进入Cloudflare的"Workers and Pages" 新建Pages项目 上传文件夹并部署
+- 点击"设置" 进入"变量和机密" 设置PROXYIP和UUID
+- 再次上传文件并部署使变量生效
+- 访问 `https://example.pages.dev/example-uuid` 获取节点链接
+  
 </details>
 
 # 变量说明
@@ -30,4 +29,7 @@
 # 自定义域
 如果原项目中Cloudflare所分配的域名无法使用 可在"设置"中添加自定义域 绑定自己的域名
   
-# 致谢: [zizifn](https://github.com/zizifn/edgetunnel) [cmliu](https://github.com/cmliu/edgetunnel)
+# 致谢: 
+
+- [zizifn](https://github.com/zizifn/edgetunnel)
+- [cmliu](https://github.com/cmliu/edgetunnel)
