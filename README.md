@@ -1,4 +1,4 @@
-# 部署
+# 项目部署
 ## Pages
 <details>
 
@@ -17,8 +17,14 @@
 - 复制[_worker.js](https://github.com/eaqx/edgetunnel/blob/main/_worker.js)内容
 - 编辑Workers代码 将第一步中复制的文件内容替换掉原有的worker.js代码 点击"保存并部署"
 - 点击"设置" 进入"变量和机密" 设置PROXYIP和UUID
-- 访问 `https://example.pages.dev/example-uuid` 获取节点链接
+- 访问 `https://example.pages.dev/your-uuid` 获取节点链接
 
 </details>
+
+# 变量说明
+| 变量名 | 获取 |
+|---------|------|
+| UUID | [UUID生成](https://1024tools.com/uuid) |
+| PROXYIP | 优选域名/[域名记录查询](https://www.nslookup.io/domains/cdn.xn--b6gac.eu.org/dns-records/) |
   
 # 致谢: [zizifn](https://github.com/zizifn/edgetunnel) [cmliu](https://github.com/cmliu/edgetunnel)
