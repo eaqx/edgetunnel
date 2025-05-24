@@ -26,5 +26,8 @@
 |---------|------|
 | UUID | [UUID生成](https://1024tools.com/uuid) |
 | PROXYIP | 优选域名/[域名记录查询](https://www.nslookup.io/domains/cdn.xn--b6gac.eu.org/dns-records/) |
+
+# 自定义域
+如果原项目中Cloudflare所分配的域名无法使用 可在"设置"中添加自定义域 绑定自己的域名
   
 # 致谢: [zizifn](https://github.com/zizifn/edgetunnel) [cmliu](https://github.com/cmliu/edgetunnel)
